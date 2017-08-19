@@ -14,7 +14,10 @@ Install requirements (might need to OS install PhantomJS) and run:
 
 2. Private version (PyBites only for now - but feel free to clone the repo and deploy it to Heroku with your own logos):
 
-	Using `click`:
+		$ export USERNAME=my_user
+		$ export PASSWORD=my_password
+
+	I am using [the awesome click module](http://click.pocoo.org/5/) for the CLI interface:
 
 		$ python private_banner.py  --help
 		Usage: private_banner.py [OPTIONS]
