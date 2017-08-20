@@ -35,4 +35,8 @@ Install requirements (might need to OS install PhantomJS) and run:
 
 	For example:
 
-		$ python private_banner.py  -n mybanner -l special -i http://images.indianexpress.com/2015/05/python.jpg -t 'PyBites Banner Generator Automation' -b
+		$ python private_banner.py  -n mybanner \
+		-l special -i http://images.indianexpress.com/2015/05/python.jpg \
+		-t 'PyBites Banner Generator Automation' -b
+
+Also see PyBites article [Fully Automate Login and Banner Generation with Selenium, Requests and Click](https://pybit.es/selenium-requests-automation.html).
